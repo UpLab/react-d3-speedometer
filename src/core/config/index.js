@@ -125,7 +125,7 @@ export const getConfig = ({ PROPS, parentWidth, parentHeight }) => {
     // text color
     textColor: PROPS.textColor,
     // label format
-    labelFormat: d3Format(PROPS.valueFormat),
+    labelFormat: PROPS.valueFormat,
     // value text string (template string)
     currentValueText: PROPS.currentValueText,
     // placeholder style for 'currentValue'

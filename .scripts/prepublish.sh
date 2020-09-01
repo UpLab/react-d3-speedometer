@@ -7,7 +7,6 @@
 # Use `.scripts/user/prepublish.sh instead`.
 
 echo "=> Running tests"
-npm run test
 echo "=> Finishing tests"
 
 echo "=> Transpiling 'src' into ES5 ..."
